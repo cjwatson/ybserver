@@ -23,7 +23,7 @@ parts:
 apps:
   ybserver:
     command: ybserver
-    daemon: simple	
+    daemon: simple
     restart-condition: always
     plugs:
       - network
